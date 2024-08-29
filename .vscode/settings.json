@@ -1,0 +1,11 @@
+{
+  "reactSnippets.settings.prettierEnabled": false,
+  "editor.defaultFormatter": null,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.format.enabled": true,
+  "java.generatePackageDeclarations": false,
+  "editor.formatOnSave": true,
+
+}
