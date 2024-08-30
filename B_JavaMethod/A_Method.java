@@ -9,7 +9,13 @@ public class A_Method {
     // 這是方法的返回型別。"void" 表示這個方法不返回任何值。如果方法需要返回值,你會在這裡指定返回值的資料型別(例如 int, String 等)。
 
     static int myNumber(int x, int y) {
+        // method 有要回傳東西的話就給他型別
         return x + y;
+    }
+
+    static double myNumber() {
+        // 兩個不同型別的method可以叫一樣的名字
+        return 3.5 + 5.5;
     }
 
     public static void main(String[] args) {
@@ -18,5 +24,6 @@ public class A_Method {
         myMethod("Go");
 
         System.out.println(myNumber(2, 3));
+        System.out.println(myNumber());
     }
 }
