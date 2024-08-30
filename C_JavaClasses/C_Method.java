@@ -24,7 +24,7 @@ public class C_Method {
 
     // 在class裡宣告 public method
     // 要呼叫的話要先創再實例才可以呼叫
-    public void myPublicMethid() {
+    public void myPublicMethod() {
         System.out.println("Public method");
     }
 
@@ -32,7 +32,7 @@ public class C_Method {
         myStaticMethod();
 
         C_Method myObj = new C_Method();
-        myObj.myPublicMethid();
+        myObj.myPublicMethod();
     }
 
 }

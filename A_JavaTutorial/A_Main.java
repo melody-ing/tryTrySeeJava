@@ -6,6 +6,7 @@
 /* .class */
 // 版本控制中，通常只追踪 .java 文件，而忽略 .class 文件 (在 .gitignore 文件中添加 *.class)
 
+// 在Java中,當你在一個資料夾(package)中創建一個class時,你實際上已經定義了一個新的型別。class本身就是一種自定義的型別,所以不需要額外宣告型別。
 public class A_Main {
     public static void main(String[] args) {
         // 任何在main() method裡的code都會執行
