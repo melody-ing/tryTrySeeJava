@@ -1,4 +1,4 @@
-package C_JavaClasses;
+package B_JavaClasses;
 
 /* Class Method */
 // Static vs. Public

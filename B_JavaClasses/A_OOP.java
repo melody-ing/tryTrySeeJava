@@ -1,4 +1,4 @@
-package C_JavaClasses;
+package B_JavaClasses;
 /* OOP */
 
 // 能夠創造 data 跟 method 的 object

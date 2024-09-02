@@ -1,9 +1,10 @@
-package C_JavaClasses;
+package B_JavaClasses;
 
 public class E_Constructors {
     int x; // 創建一個attribute
 
-    // 創建一個 class constructors，名字要跟class一樣，不能return東西(void)
+    // 創建一個 class constructors，名字要跟class一樣，不能return東西(預設為 void 不用宣告型別)
+    // 構造函數總是"返回"一個新的物件實例，這是隱含的。
     public E_Constructors(int y) {
         x = y;
         // 為 E_Constructors class 中的變數設定初始值
@@ -12,7 +13,7 @@ public class E_Constructors {
     }
 
     public static void main(String[] args) {
-        E_Constructors myObj = new E_Constructors(6); // 在創建實例時就會呼叫 constructor
+        E_Constructors myObj = new E_Constructors(6); // 當你創建一個新的物件時，你實際上是在調用構造函數
         System.out.println(myObj.x);
     }
 }
