@@ -1,14 +1,15 @@
 package B_JavaClasses;
 
 import B_JavaClasses.C_Method;
-import B_JavaClasses.*; // 載入封包中的所有類別
+import B_JavaClasses.*;
+// 載入封包中的所有類別，但是因為我現在調用的是同一個封包的方法，所以不需要import
 
 /* Package 封包 */
 // 也就是資料夾，將多個程式檔案分群處理
 
 /* 基礎權限控制 */
-// class 預設權限：僅限同個封包中的其他類別可以調用，在一個
-// public class 公開權限：可被所有其他類別調用
+// class 預設權限：僅限同個封包中的其他類別可以調用
+// public class 公開權限：可被所有其他類別調用，所有類別 變數 方法都要是public才可以
 // 還有很多其他的權限
 
 // -App.java (無所屬封包名稱)(可以調用 math 裡 public 的 method)

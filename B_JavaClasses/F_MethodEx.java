@@ -4,11 +4,13 @@ package B_JavaClasses;
 // 這些就像是每個具體學校的特徵。
 // 例如，name 和 studentCount 對每所學校都是不同的。
 // 每創建一個新的 School 物件，就會有一組新的實例變數。
+// 實例被創建時才會存到記憶體中
 
 /* 非實例（靜態）成員： */
 // 這些就像是所有學校共享的信息。
 // 例如，country 和 totalStudents 對所有學校都是一樣的。
 // 不管創建多少個 School 物件，這些靜態變數都只有一份。
+// 程序啟動時就會被存到記憶體中
 
 public class F_MethodEx {
     // 靜態（非實例）成員：所有學校共享

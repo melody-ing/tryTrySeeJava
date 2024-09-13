@@ -9,9 +9,15 @@ package B_JavaClasses;
 
 // 存取修飾符包括：
 // - public：公開，可被任何其他類別存取
-// - private：私有，只能在同一類別內存取
-// - protected：受保護，可被同一套件內的類別和所有子類別存取
 // - default（無修飾符）：同一套件內可存取
+// - protected：受保護，可被同一套件內的類別和所有子類別存取
+// - private：私有，只能在同一類別內存取
+
+// 修飾子     | 同一類別 | 同一套件 | 不同套件的子類別 | 不同套件且非子類別
+// public     |    o    |    o    |        o        |        o    
+// protected  |    o    |    o    |        o        |
+// default    |    o    |    o    |
+// private    |    o    |
 
 // 非存取修飾符例子：
 // - static：用於創建類別方法和變數

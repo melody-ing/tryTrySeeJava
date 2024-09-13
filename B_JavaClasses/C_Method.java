@@ -15,7 +15,7 @@ package B_JavaClasses;
 // - 適用於類、方法和變量
 // - 不限制於類級別，可以用於實例成員
 
-public class C_Method {
+class C_Method {
 
     // 在class裡宣告 static method
     static void myStaticMethod() {
